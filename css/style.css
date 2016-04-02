@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Alarm Clockregular';
+    src: url('../fonts/alarm_clock-webfont.eot');
+    src: url('../fonts/alarm_clock-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/alarm_clock-webfont.woff2') format('woff2'),
+         url('../fonts/alarm_clock-webfont.woff') format('woff'),
+         url('../fonts/alarm_clock-webfont.ttf') format('truetype'),
+         url('../fonts/alarm_clock-webfont.svg#alarm_clockregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Alarm Clockregular';
+	background: black;
+	color: blue;
+}
+
+#watch{
+	display: inline-block;
+	margin: 20px 150px 0 436px;
+	width: 500px;
+	height: 180px;
+	border-radius: 30px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+button{
+	margin: 20px 0 0 5px;
+	width: 180px;
+	height: 180px;
+	border-radius: 30px;
+	text-align: center;
+	box-sizing: border-box;
+	font-size: 35px;
+	outline: none;
+	background: transparent;
+	color: blue;
+	border: none;
+	font-family: 'Alarm Clockregular';
+}
+
+span{
+	line-height: 180px;
+	font-size: 75px;
+	text-shadow: 0px 0px 10px blue;
+}
+
+#stop{
+	display: none;
+}
+
+button:hover{
+	text-shadow: 0px -5px 18px blue;
+	box-shadow: 0px 0px 10px blue;
+}
+
+#watch2{
+	margin: 20px 0 0 440px;
+	width: 500px;
+	border-radius: 30px;
+	text-indent: 35px;
+	box-sizing: border-box;
+	font-size: 30px;
+	text-shadow: 0px 0px 10px blue;
+}
